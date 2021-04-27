@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+    <link type="text/css" href="onepage-scroll.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Nerko One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Freckle Face' rel='stylesheet'>
+
+
+    <style>
+        section {
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .main section.page1 {
+            background-image: url("bg1.jpg");
+        }
+        .pg1{
+            position: relative;
+            left:1100px;
+            bottom: 45%;
+            text-align: left;
+            color:rgb(255, 147, 7);
+            font-family: 'Nerko One';
+            font-size: 30px;
+        }
+        .img{
+            position: relative;
+            width: 50%;
+            height:70%;
+            top:140px;
+            left: 100px;
+        }
+        
+        .main section.page2 {
+            background-image: url("bg2.jpg");
+        }
+        
+        .main section.page3 {
+            background-image: url("bg3.jpg");
+        }
+        .video12{
+            position: relative;
+            left: 20px;
+        }
+        .video2{
+            position: relative;
+            left: 40px;
+        }
+        .video3{
+            position: relative;
+            left: 60px;
+        }
+        .pg3l{
+            text-align: center;
+            font-family: 'Freckle Face';
+            font-size: 30px;
+            position: absolute;
+            left: 670px;
+            top: 540px;
+
+        }
+        .video4{
+            position: relative;
+            top: 120px;
+            left: 20px;
+        }
+        .video5{
+            position: relative;
+            top: 120px;
+            left: 670px;
+        }
+        
+        
+        .main section.page4 {
+            background-image: url("bg4.jpg");
+        }
+        .img41{
+            position: relative;
+            width: 40%;
+            height:60%;
+            left: 80px;
+            top: 40px;
+        }
+        .img42{
+            position: relative;
+            width: 40%;
+            height:60%;
+            left: 240px;
+            top: 40px;
+        }
+        .pgl4{
+            font-family: 'Freckle Face';
+            position: relative;
+            top: 150px;
+            left: 300px;
+            font-size: 30px;
+            color:rgb(255, 147, 7);
+        }
+        .main section.page5 {
+            background-image: url("bg5.jpg");
+        }
+        .videop5{
+            position: relative;
+            left: 40px;
+            bottom: 1000px;
+            top: 0;
+        }
+ 
+        .img5{
+            position: relative;
+            width: 40%;
+            height:50%;
+            left: 250px;
+            top: 40px;
+        }
+        
+        
+        h1 {
+            font-size: 40px;
+            color: #efefef;
+            text-align: center;
+            padding-top: 49vh;
+        }
+        
+        font {
+            border: 2px solid #efefef;
+        }
+      
+
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $(".main").onepage_scroll({
+                sectionContainer: "section",
+                easing: "ease-in-out",
+                animationTime: 1000,
+                pagination: true,
+                loop: true,
+                responsiveFallback: 600,
+                direction: "vertical",
+                keyboard: true
+                
+            });
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <div class="main">
+
+        <section class="page1">
+            <img src="page1.jpg" class="img">
+            <p class="pg1">I joined football when i was studying 4th std.<br><br>My coach JOSEPH sir trained us.<br><br>I made many friends there and enjoyed with them.<br><br>If not for KAMESH, I never would have entered sports.<br><br>We won couple of interschool prizes in football. </p>
+        </section>
+
+        <section class="page2">
+            <img src="page2.jpg" class="img">
+            <p class="pg1">After 2 years when i was studying in 6th std, my friend Gogul<br> joined Atheletics.<br><br>It provoked my interested in Atheletics. <br>I wanted to join him so i did.<br><br>I participated in Open State Meet in 6th for the event 100m <br> and won 2nd place.<br><br>Rest in Histroy.</p>
+        </section>
+
+        <section class="page3">
+            
+            <video class="video12" width="600" height="400" autoplay controls ><source src="video12.mp4" type="video/mp4"></video>
+            <video id="video2" class="video2" width="600" height="400"   controls="controls" preload="true" muted ><source src="video2.mp4" type="video/mp4"></video>
+            <video class="video3" width="600" height="400"  muted controls ><source src="video3.mp4" type="video/mp4"></video>
+            <p class="pg3l">1st video will play automatically.<br> Take time to view all videos.<br><br>
+            These are some of my winning moments in<br> Athletics in Interschool and Statemeet.</p>
+            <video class="video4" width="600" height="400" muted controls ><source src="video4.mp4" type="video/mp4"></video>
+            <video class="video5" width="600" height="400"  muted controls ><source src="video5.mp4" type="video/mp4"></video>
+        </section>
+
+        <section class="page4">
+            <img src="pg41.jpg" class="img41">
+            <img src="pg42.jpg" class="img42">
+            <p class="pgl4">I also participated in Interschool Basketball. We won 3rd place when i was studying in 10th Std.</p>
+        </section>
+        
+        <section class="page5">
+            <video class="videop5" width="720" height="400" muted controls ><source src="pgv5.mp4" type="video/mp4"></video>
+            <img src="pg5.jpeg" class="img5">
+            <p class="pgl4">I also won 1st place in chess interschool competition when i was studying in 12th.</p>
+        </section>
+    </div>
+</body>
+
+</html>

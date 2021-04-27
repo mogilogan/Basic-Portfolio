@@ -1,0 +1,101 @@
+﻿.main{
+    text-align: center;
+    padding-top: 240px;
+}
+.bl{
+  position: absolute;
+  top: 300px;
+  left: 0;
+}
+.vl {
+  border-left: 2px solid #2b1d0e;
+  height: 500px;
+  position: absolute;
+  left: 39%;
+  margin-left: -3px;
+  top: 260px;
+}
+.mainpic{
+  position: absolute;
+  height: 450px;
+  left: 1400px;
+  bottom: 250px;
+}
+.ab{
+    color: rgba(252, 143, 70, 0.747);
+    font-size: 20px;
+    font-family: 'Chango';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.pr{
+  color: rgba(252, 143, 70, 0.747);
+  font-size: 20px;
+  font-family: 'Chango';
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.ec{
+  color: rgba(252, 143, 70, 0.747);
+  font-size: 20px;
+  font-family: 'Chango';
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+
+a.ab:hover, a.ab:active{
+    font-size: 200%;
+}
+a.pr:hover, a.ab:active{
+    font-size: 200%;
+}
+a.ec:hover, a.ab:active{
+    font-size: 200%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-instagram {
+    background: #f13a34;
+    color: white;
+}
+
+
